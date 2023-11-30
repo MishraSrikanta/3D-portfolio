@@ -8,7 +8,7 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  angular,
   tailwind,
   nodejs,
   mongodb,
@@ -17,12 +17,18 @@ import {
   docker,
   meta,
   starbucks,
+  nina,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  jira,
+  niam,
+  eva,
+  autoCad,
+  makerjs
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +52,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Three.js Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Angular Developer",
     icon: backend,
   },
   {
@@ -81,8 +87,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Angular JS",
+    icon: angular,
   },
   {
     name: "Tailwind CSS",
@@ -105,22 +111,26 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "jira",
+    icon: jira,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "autoCad",
+    icon: autoCad,
+  },
+  {
+    name: "Maker JS",
+    icon: makerjs,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Site Engineer",
+    company_name: "Nina Percept Pvt Ltd.",
+    icon: nina,
+    iconBg: "#111111",
+    date: "jun 2019 - April 2020",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,37 +139,24 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Soft Skill Trainer",
+    company_name: "NIAM",
+    icon: niam,
+    iconBg: "#111111",
+    date: "Aug 2021 - Feb 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Eva",
+    icon: eva,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2022 - Jan Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,25 +195,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Normal Portfolio Site",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "First and simple portfolio website using HTML, CSS and JavaScript.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://vwdajpgaeygfm7o2csaywq-on.drv.tw/site/portifolio/",
   },
   {
     name: "Job IT",

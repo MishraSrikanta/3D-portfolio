@@ -212,3 +212,144 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+/* Experience Section Responsive Styles */
+@media (max-width: 768px) {
+  .vertical-timeline-element-content {
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .vertical-timeline-element-content h3 {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+  }
+
+  .vertical-timeline-element-content p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .vertical-timeline::before {
+    left: 0;
+  }
+
+  .vertical-timeline-element {
+    margin-bottom: 1.5rem;
+  }
+
+  .vertical-timeline-element-content {
+    padding: 0.75rem;
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgba(29, 24, 54, 0.9) 0%, rgba(22, 33, 62, 0.9) 100%);
+  }
+
+  .vertical-timeline-element-content::before {
+    left: -8px;
+  }
+
+  .vertical-timeline-element-content h3 {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .vertical-timeline-element-content p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .vertical-timeline-element-content ul li {
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+  }
+
+  .vertical-timeline-element-icon {
+    width: 35px;
+    height: 35px;
+    left: -18px;
+  }
+}
+
+/* Smooth transitions for all elements */
+.vertical-timeline-element-content {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.vertical-timeline-element-content:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Duration badge responsive styling */
+@media (max-width: 480px) {
+  .vertical-timeline-element-content {
+    width: 100%;
+    padding: 0.75rem;
+  }
+
+  .vertical-timeline-element-content h3 {
+    word-break: break-word;
+  }
+}
+
+/* Alternating Timeline - Mobile Responsive */
+@media (max-width: 768px) {
+  .experience-timeline {
+    padding: 2rem 1rem;
+  }
+
+  .experience-card {
+    width: 100%;
+  }
+
+  .center-line {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .experience-timeline {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .experience-card-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .experience-card-title {
+    font-size: 18px;
+  }
+
+  .experience-card-company {
+    font-size: 14px;
+  }
+
+  .experience-card-point {
+    font-size: 12px;
+  }
+}
+
+/* Smooth hover and transitions */
+.experience-card-container {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.experience-card-container:hover {
+  transform: translateY(-8px);
+}
+
+/* Hero Button Styles */
+.hero-btn {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(168, 85, 247, 0.4);
+}
+
+.hero-btn:active {
+  transform: scale(0.95);
+}
